@@ -1,2 +1,2 @@
 # hk-touch-btn
-ESP32 Touch Button based on HomeSpan
+ESP32 Touch Button based on HomeSpan. Designed with a TTP223 touch sensor in mind. Its basically one of the example sketches with 3 lines changed - two of those are the pin number. The other line is the init line in DEV_ProgButton.h to better debounce the touch sensor. I tried using the TOUCH version, but TTP223 presents more like a traditional button.
